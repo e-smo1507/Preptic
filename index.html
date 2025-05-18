@@ -8,8 +8,7 @@
 <body>
   <!-- emmet -->
    <div id = "root">
-<div id="title"></div>
-<div id="jam"></div>
+    <div id="hr"></div>
    </div>
 
 
@@ -21,22 +20,14 @@ root.appendChild(head);
 </script> -->
 
 
-<!-- CDN =contact delivery network -->
-<script crossorigin 
+<!-- CDN =contact delivery network  faster way to inject  access code -->
+<!-- <script crossorigin 
 src = "https://unpkg.com/react@18/umd/react.development.js">
 </script>
 <script crossorigin  
-src = "https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+src = "https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
 
-<script>
-  const head1 = React.createElement("h1",{
-id:"title"
-  },"hi");
-  const head2 = React.createElement("h2",{ id : "jam" }," hi mini");
-  const cont = React.createElement("div",{ id : "root" },[head1,head2]);
-  const root = ReactDOM.createRoot(document.getElementById("root"));
-  root.render(cont);
 
-</script>
+<script type ="module" src="app.js"></script>
 </body>
 </html> 
