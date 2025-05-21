@@ -2,6 +2,8 @@
   "name": "namaste-react",
   "version": "1.0.0",
   "scripts": {
+    "start": "parcel index.html",
+    "build": " parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,16 +17,18 @@
     "url": "https://github.com/e-smo1507/Preptic/issues"
   },
   "homepage": "https://github.com/e-smo1507/Preptic#readme",
-  "description": "",
   "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.15.1"
   },
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
-    "browserslist": [
+  "browserslist": [
     "defaults and fully supports es6-module",
     "maintained node versions"
-    ]
+  ],
+  "description": ""
 }
